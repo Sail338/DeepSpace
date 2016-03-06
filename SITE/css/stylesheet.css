@@ -1,0 +1,183 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: black;
+}
+.nav {
+	z-index: 999;
+}
+
+.nav-pills {
+	float: right;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	color: #f9f9f9;
+	font-size: 25px;
+}
+
+.nav-pills a {
+	color: #f9f9f9;
+}
+
+.active {
+	color: #009688;
+}
+
+.active a {
+	color: #009688 !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+li a:hover {
+	background-color: #009688 !important;
+}
+
+.home {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: url("../img/cover.svg") center no-repeat;
+	background-size: cover;
+	z-index: 0;
+}
+
+.home .container {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	height:100%;
+	z-index: 0;
+}
+
+.home h1 {
+	font-family: "Montserrat", Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	text-align: center;
+	color: #f9f9f9;
+	margin: 0;
+}
+
+.home p {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 19px;
+	text-align: center;
+	color: #f9f9f9;
+	margin: 0;
+}
+
+.btn {
+	background-color: #009688;
+	color: #f9f9f9;
+	border: #f9f9f9;
+	border-radius: 30px;
+	margin: 0 auto;
+	display: block;
+	font-size: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.center-container a:hover {
+	text-decoration: none;
+}
+
+.arrow {
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+	font-size: 40px;
+}
+
+.arrow i {
+	color: #f9f9f9;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.arrow a {
+	color: #f9f9f9;
+	text-decoration: none;
+}
+.arrow a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.divider {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.row {
+	background-color: #009688;
+	color: #f9f9f9;
+	font-size: 40px;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: url("../img/cover2.svg") center no-repeat;
+	background-size: cover;
+	z-index: 0;
+}
+
+.about .container {
+	background-color: #151514;
+}
+
+.left-container {
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding-left: 70px;
+	padding-right: 70px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	z-index: 0;
+}
+
+.left-container h1 {
+	font-family: "Montserrat",Helvetica,sans-serif;
+	font-weight: 700;
+	color: #009688;
+	font-size: 70px;
+}
+
+.left-container p {
+	color: #f9f9f9;
+	font-size: 30px;
+}
+
+.text-wrapper {
+
+}
+
+.download .btn {
+	background-color: #00796b;
+}
+
+.download a {
+	text-decoration: none;
+}
+
+.footer .row{
+	background-color: #00796b;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.footer i {
+	color: #f9f9f9;
+	font-size: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
